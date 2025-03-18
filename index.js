@@ -61,7 +61,10 @@ function makeSound(key) {
       kick.play();
       break;
 
-
+ case "r":
+      var ka = new Audio('sounds/crash.mp3');
+      ka.play();
+      break;
     default: console.log(key);
 
   }
